@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+
+    <title>
+        cig-gy
+    </title>
+</head>
+<style>
+    :root{
+        --bg-primary:#220972;
+        --bg-secondary:#2f0763;
+        --showcase-primary:rgb(177, 50, 0);
+        --showcase-secondary:#f0b800;
+        
+        --main-text:#ffd640;
+    }
+    *{
+        color:var(--main-text);
+    }
+    body{
+        background-color: var(--bg-primary);
+
+    }
+    .showcase{
+        grid-gap: 4px;
+        display: grid;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid var(--bg-secondary);
+    }
+
+    .card {
+        grid-area: 1;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid var(--showcase-secondary);
+        background-color: var(--showcase-primary);
+    }
+
+    .card .descript {
+        background: var(--bg-secondary);
+        border-radius: 10px;
+        padding: inherit;
+        min-height: 10vh;
+    }
+
+</style>
+<body>
+    <h2> crazy inocent games</h2>
+    <div>
+        <h1>
+            Apps and games
+        </h1>
+        <div class=showcase>
+            <div class="card">
+                <a target="_blank">itch.io</a>
+                <div class="descript">
+
+                </div>
+            </div>
+            <div  class="card">
+                <a target="_blank">Carta Parrilla</a>
+                <div class="descript">
+                    Truco And more
+                </div>
+            </div>
+            <div  class="card">
+                <a target="_blank">pocket Crab Atk</a>
+                <div class="descript">
+                    Comming soon: se the first to  <a></a>try it here</a>
+                   
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
